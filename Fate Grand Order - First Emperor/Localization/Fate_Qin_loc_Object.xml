@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_loc_Object -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/17/2018 6:37:06 PM -->
+<GameData>
+	<BaseGameText>
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_NAME" >
+			<Text>Center of the universe</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_NAME" >
+			<Text>Nuclear Crouching Tiger</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_DESCRIPTION" >
+			<Text>Maybe the encyclopedia can tell you what this is. [NEWLINE]Replace the original industrial area, and study the corresponding technology before it can be built in ancient times. [NEWLINE]Most of the technology areas will be unlocked after researching ancient technology. [NEWLINE]The city is not affected by natural disasters after the area is established. [NEWLINE]When you studied the four inventions of the Emperor (graphics, gunpowder, printing, astronomy), all [ICON_GreatPerson] points increased by 50% and each [ICON_DISTRICT_HANSA] industrial area immediately gave birth to a nuclear tiger. gun.</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME" >
+			<Text>Space Base Great Wall</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_DESCRIPTION" >
+			<Text>Maybe the encyclopedia can tell you what this is. [NEWLINE] Powerful and crazy robotic units that use hydrogen bombs to destroy enemies while using atomic bombs to defend themselves are extremely difficult to manufacture. They are the most powerful weapon in the history of the Empire. Through some landmarks and research, the one-time output can be greatly improved.</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION" >
+			<Text>Maybe the encyclopedia can tell you what this is. [NEWLINE]With the change of super science and technology, the Great Wall is integrated with all kinds of time and space, and it has a lot of resources in the multi-dimensional space and can completely protect the city.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_NAME" >
+			<Text>Longevity</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_NAME" >
+			<Text>All Books Must Be Burned</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_DESCRIPTION" >
+			<Text>[ICON_TechBoosted] Eureka and [ICON_CivicBoosted] are encouraged to increase municipality and technology by 80% instead of 50%. [NEWLINE]The Forbidden City will greatly increase the ability of spies [ICON_PressureUpLarge][ICON_PressureUpLarge][ICON_PressureUpLarge], and will give three additional wildcard slots to improve the 12-point [ICON_Fortified] perimeter defense in all cities. [NEWLINE]The Terracotta Warriors will make the number of nuclear rifles and the number of good builds completed +2, and the unit no longer has [ICON_Gold] maintenance fees. [NEWLINE]The Potala Palace provides 30 [ICON_Housing] for each city's area, and the [ICON_District] area is built without population restrictions, and the unit is no longer war-weary.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_DESCRIPTION" >
+			<Text> can consume the builder [ICON_Charges] workforce to advance 30% of the ancient, classical and classical times of wonders, projects, and regional construction. Builders get extra [ICON_Charges] workforce and [ICON_Movement] mobility. [NEWLINE]After building the classics, the spectacle will receive 100% [ICON_PRODUCTION] capacity bonus. [NEWLINE]A city with [ICON_DISTRICT_WONDER] spectacle will not be encircled, the unit will be trained or purchased to provide a 50% experience bonus, and the city will gain 6 points of livability and appeal. [NEWLINE]Each city will increase its [ICON_ProductionLarge] 100% capacity when it builds roads with the [ICON_CapitalLarge] capital and when the capital builds the area. </Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_DESCRIPTION" >
+			<Text>A "tank" carved out of wood, driven by terracotta warriors and horses, is a heavy cavalry unit like a modern tank. It is environmentally friendly and very cheap so that it can be moved very quickly [ICON_Movement] anywhere, but at the cost. It is a lot of maintenance costs and a slightly weaker [ICON_Strength] combat power.</Text>
+		</Row>
+
+		<Row Tag="LOC_MUSIC_FATE_QIN_RESTART_TEXT" >
+			<Text>[NEWLINE]Fate Qin:If you can't click, press ESC.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_NAME" >
+			<Text>The more the better</Text>
+		</Row>
+
+	</BaseGameText>
+	<LocalizedText>
+		
+		<!-- 
+
+		<Row Tag="LOC_DISTRICT_SPACEPORT_FATE_QIN_X_NAME" Language="zh_Hans_CN">
+			<Text>星舰运载平台</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_SPACEPORT_FATE_QIN_X_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替代原版的宇航中心，研究相应的科技之后可以在远古时代建造。[NEWLINE]也许百科全书能告诉你这个是什么。</Text>
+		</Row>
+
+		-->
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_NAME" Language="zh_Hans_CN">
+			<Text>宇宙中心</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>也许百科全书能告诉你这个是什么。[NEWLINE]替代原版的工业区，研究相应的科技之后可以在远古时代建造。[NEWLINE]大部分科技区域会在研究完远古时代的科技后解锁。[NEWLINE]建立该区域后该城市的不受自然灾害影响。[NEWLINE]当你研究完始皇帝的四大发明（制图学、火药、印刷术、天文学）之后，所有[ICON_GreatPerson]点数产出提高50%并且每个[ICON_DISTRICT_HANSA]工业区会立刻诞生一个核子虎蹲炮。</Text>
+		</Row>
+
+		<!-- 
+		
+		<Row Tag="LOC_DISTRICT_SPACEPORT_FATE_QIN_X_NAME" Language="zh_Hant_HK">
+			<Text>星艦運載平臺</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_SPACEPORT_FATE_QIN_X_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>替代原版的宇航中心，研究相應的科技之後可以在遠古時代建造。[NEWLINE]也許百科全書能告訴妳這個是什麽。</Text>
+		</Row>
+		
+		-->
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_NAME" Language="zh_Hant_HK">
+			<Text>宇宙中心</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>也許百科全書能告訴你這個是什麼。 [NEWLINE]替代原版的工業區，研究相應的科技之後可以在遠古時代建造。 [NEWLINE]大部分科技區域會在研究完遠古時代的科技後解鎖。 [NEWLINE]建立該區域後該城市的不受自然災害影響。 [NEWLINE]當你研究完始皇帝的四大發明（製圖學、火藥、印刷術、天文學）之後，所有[ICON_GreatPerson]點數產出提高50%並且每個[ICON_DISTRICT_HANSA]工業區會立刻誕生一個核子虎蹲炮。</Text>
+		</Row>
+
+		<!-- 
+		
+		<Row Tag="LOC_DISTRICT_SPACEPORT_FATE_QIN_X_NAME" >
+			<Text>Starship carrier platform</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_SPACEPORT_FATE_QIN_X_DESCRIPTION" >
+			<Text>It is an upgraded version of the original Aerospace Center, which can be built in ancient times after studying the corresponding technology.[NEWLINE]Maybe the encyclopedia can tell you what this is.</Text>
+		</Row>
+
+		-->
+
+
+
+
+
+		<Row Tag="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_NAME" Language="zh_Hans_CN">
+			<Text>核子虎蹲炮</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_NAME" Language="zh_Hant_HK">
+			<Text>核子虎蹲炮</Text>
+		</Row>
+
+
+		<Row Tag="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>也许百科全书能告诉你这个是什么。[NEWLINE]强大而疯狂的机器人单位，会用氢弹摧毁敌人，同时使用原子弹防身，制造难度极高，是帝国史上最强大的武器，通过某些地标和研究可以大幅度提高一次性的产量。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>也許百科全書能告訴你這個是什麼。 [NEWLINE]強大而瘋狂的機器人單位，會用氫彈摧毀敵人，同時使用原子彈防身，製造難度極高，是帝國史上最強大的武器，通過某些地標和研究可以大幅度提高一次性的產量。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME" Language="zh_Hans_CN">
+			<Text>天基长城</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME" Language="zh_Hant_HK">
+			<Text>天基長城</Text>
+		</Row>
+
+
+		<Row Tag="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>也许百科全书能告诉你这个是什么。[NEWLINE]通过超科学技术的改变，长城与各个时空融为一体，在多维空间穿梭变化，会提供大量的资源并且能够完整地保护好城市。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>也許百科全書能告訴你這個是什麼。 [NEWLINE]通過超科學技術的改變，長城與各個時空融為一體，在多維空間穿梭變化，會提供大量的資源並且能夠完整地保護好城市。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_NAME" Language="zh_Hans_CN">
+			<Text>长生不老</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_NAME" Language="zh_Hant_HK">
+			<Text>長生不老</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞提升80%的市政和科技，而不是50%。[NEWLINE]紫禁城会超大幅度提升间谍的能力[ICON_PressureUpLarge][ICON_PressureUpLarge][ICON_PressureUpLarge]，并且会额外给予三张通配符卡槽，提高所有城市12点[ICON_Fortified]外围防御。[NEWLINE]兵马俑会让核子虎蹲炮和多多益善建造完成时的数量+2，并且单位不再拥有[ICON_Gold]维护费。[NEWLINE]布达拉宫让每个城市的区域提供30[ICON_Housing]，[ICON_District]区域的建造没有人口限制，并且单位不再厌战。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞提升80%的市政和科技，而不是50%。 [NEWLINE]紫禁城會超大幅度提升間諜的能力[ICON_PressureUpLarge][ICON_PressureUpLarge][ICON_PressureUpLarge]，並且會額外給予三張通配符卡槽，提高所有城市12點[ICON_Fortified]外圍防禦。 [NEWLINE]兵馬俑會讓核子虎蹲炮和多多益善建造完成時的數量+2，並且單位不再擁有[ICON_Gold]維護費。 [NEWLINE]布達拉宮讓每個城市的區域提供30[ICON_Housing]，[ICON_District]區域的建造沒有人口限制，並且單位不再厭戰。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_NAME" Language="zh_Hans_CN">
+			<Text>焚书坑儒</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_NAME" Language="zh_Hant_HK">
+			<Text>焚書坑儒</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以消耗建造者[ICON_Charges]劳动力来推进30%的远古时代和古典时代的奇观、项目、区域的建造进程。建造者会获得额外[ICON_Charges]劳动力和[ICON_Movement]移动力。[NEWLINE]建造古典时代之后的奇观会获得100%的[ICON_PRODUCTION]产能加成。[NEWLINE]拥有[ICON_DISTRICT_WONDER]奇观的城市不会被围城，单位被训练或购买后提供50%经验加成，并且该城市会获得6点宜居度和吸引力。[NEWLINE]各个城市会与[ICON_CapitalLarge]首都建立道路并且首都建造区域时提高[ICON_ProductionLarge]100%产能。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可以消耗建造者[ICON_Charges]勞動力來推進30%的遠古時代和古典時代的奇觀、項目、區域的建造進程。建造者會獲得額外[ICON_Charges]勞動力和[ICON_Movement]移動力。 [NEWLINE]建造古典時代之後的奇觀會獲得100%的[ICON_PRODUCTION]產能加成。 [NEWLINE]擁有[ICON_DISTRICT_WONDER]奇觀的城市不會被圍城，單位被訓練或購買後提供50%經驗加成，並且該城市會獲得6點宜居度和吸引力。 [NEWLINE]各個城市會與[ICON_CapitalLarge]首都建立道路並且首都建造區域時提高[ICON_ProductionLarge]100%產能。 </Text>
+		</Row>
+
+
+		<Row Tag="LOC_MUSIC_FATE_QIN_RESTART_TEXT" Language="zh_Hans_CN">
+			<Text>[NEWLINE]Fate 始皇帝：如果点击无效，请按ESC。</Text>
+		</Row>
+		<Row Tag="LOC_MUSIC_FATE_QIN_RESTART_TEXT" Language="zh_Hant_HK">
+			<Text>[NEWLINE]Fate 始皇帝：如果點擊無效，請按ESC。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_NAME" Language="zh_Hans_CN">
+			<Text>多多益善</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_NAME" Language="zh_Hant_HK">
+			<Text>多多益善</Text>
+		</Row>
+
+
+		<Row Tag="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一种由木材雕刻出的“坦克”，由兵马俑驾驶着，是一种像现代坦克一样的重骑兵单位，由于材料环保并且非常便宜以至于可以非常迅速地[ICON_Movement]移动到任何地方，但代价就是大量的维护费和略弱的[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一種由木材雕刻出的“坦克”，由兵馬俑駕駛著，是一種像現代坦克一樣的重騎兵單位，由於材料環保並且非常便宜以至於可以非常迅速地[ICON_Movement]移動到任何地方，但代價就是大量的維護費和略弱的[ICON_Strength]戰鬥力。</Text>
+		</Row>
+
+
+	</LocalizedText>
+
+</GameData>

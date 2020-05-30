@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Data_EP1 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2019/2/16 10:02:01 -->
+<GameData>
+	
+	
+
+	<Improvement_YieldChanges>
+
+		<Update>
+			<Set YieldChange="2"/>
+			<Where ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL"/>
+		</Update>
+
+
+
+	</Improvement_YieldChanges>
+
+	<Adjacency_YieldChanges>
+
+		<Update>
+			<Set YieldChange="2"/>
+			<Where AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL"/>
+		</Update>
+
+	</Adjacency_YieldChanges>
+
+</GameData>

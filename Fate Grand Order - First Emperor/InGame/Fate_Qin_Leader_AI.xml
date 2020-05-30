@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader_AI -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:14:27 PM -->
+<GameData>
+
+	<AiListTypes>
+
+		<Row ListType="FateQinWonders"/>
+		<Row ListType="FateQinCivics"/>
+		<Row ListType="FateQinTechs"/>
+		<Row ListType="FateQinUnits"/>
+		<Row ListType="FateQinWonderObsessedWonders"/>
+		
+	</AiListTypes>
+
+		<AiLists>
+
+
+		<Row ListType="FateQinWonders" LeaderType="FATE_QIN_FIRST_EMPEROR_TRAIT" System="Buildings"/>
+		<Row ListType="FateQinCivics" LeaderType="FATE_QIN_FIRST_EMPEROR_TRAIT" System="Civics"/>
+		<Row ListType="FateQinTechs" LeaderType="FATE_QIN_FIRST_EMPEROR_TRAIT" System="Technologies"/>
+		<Row ListType="FateQinUnits" LeaderType="FATE_QIN_FIRST_EMPEROR_TRAIT" System="UnitPromotionClasses"/>
+		
+		<Row ListType="FateQinWonderObsessedWonders" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+		
+	</AiLists>
+
+	<AiFavoredItems>
+
+		<Row ListType="FateQinWonders" Item="BUILDING_STONEHENGE" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_BIG_BEN" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_HANGING_GARDENS" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_EIFFEL_TOWER" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_ORACLE" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_PYRAMIDS" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_GREAT_LIGHTHOUSE" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_FORBIDDEN_CITY" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_TERRACOTTA_ARMY" Favored="true"/>
+		<Row ListType="FateQinWonders" Item="BUILDING_DAR_E_MEHR" Favored="true"/>
+		
+		<Row ListType="FateQinCivics" Item="CIVIC_STATE_WORKFORCE" Favored="true"/>
+		<Row ListType="FateQinCivics" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="FateQinCivics" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
+		<Row ListType="FateQinCivics" Item="CIVIC_EARLY_EMPIRE" Favored="true"/>
+		<Row ListType="FateQinCivics" Item="CIVIC_NUCLEAR_PROGRAM" Favored="true"/>
+		<Row ListType="FateQinCivics" Item="CIVIC_COLONIALISM" Favored="true"/>
+		<Row ListType="FateQinCivics" Item="CIVIC_TOTALITARIANISM" Favored="true"/>
+		
+		<Row ListType="FateQinTechs" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_MACHINERY" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_FLIGHT" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_INDUSTRIALIZATION" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_SCIENTIFIC_THEORY" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_ECONOMICS" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_RADIO" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_ELECTRICITY" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_STEEL" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_NUCLEAR_FUSION" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_NUCLEAR_FISSION" Favored="true"/>
+		<Row ListType="FateQinTechs" Item="TECH_COMPUTERS" Favored="true"/>
+		<Row ListType="FateQinUnits" Item="PROMOTION_CLASS_RANGED" Value="4"/>
+		<Row ListType="FateQinUnits" Item="PROMOTION_CLASS_SIEGE" Value="3"/>
+		<Row ListType="FateQinUnits" Item="PROMOTION_CLASS_AIR_BOMBER" Value="2"/>
+		
+		
+		<Row ListType="FateQinWonderObsessedWonders" Item="PSEUDOYIELD_WONDER" Value="300"/>
+		
+	</AiFavoredItems>
+	
+		<AiListTypes>
+		<Row ListType="FateQinAgendaAiListTypesPeace"/>
+		<Row ListType="FateQinAgendaAiListTypesWonder"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat"/>
+		<Row ListType="FateQinAgendaAiListTypesSpy"/>
+		<Row ListType="FateQinAgendaAiListTypesNuke"/>
+		<Row ListType="FateQinAgendaAiListTypesNukeUse"/>
+		<Row ListType="FateQinAgendaAiListTypesArmy"/>
+		<Row ListType="FateQinAgendaAiListTypesProtect"/>
+		<Row ListType="FateQinAgendaAiListTypesBandit"/>
+		<Row ListType="FateQinAgendaAiListTypesCityState"/>
+	</AiListTypes>
+	
+		<AILists>
+		
+		<Row ListType="FateQinAgendaAiListTypesPeace" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+
+		<Row ListType="FateQinAgendaAiListTypesWonder" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+
+		<Row ListType="FateQinAgendaAiListTypesSpy" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+
+		<Row ListType="FateQinAgendaAiListTypesGreat" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+
+		<Row ListType="FateQinAgendaAiListTypesNuke" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+		
+		<Row ListType="FateQinAgendaAiListTypesNukeUse" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+
+		<Row ListType="FateQinAgendaAiListTypesArmy" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+		
+		<Row ListType="FateQinAgendaAiListTypesProtect" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+
+		<Row ListType="FateQinAgendaAiListTypesBandit" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+
+		<Row ListType="FateQinAgendaAiListTypesCityState" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+		
+		<Row ListType="FateQinAgendaAiListTypesProtect" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+		
+		
+	</AILists>
+	
+	
+	<AiFavoredItems>
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="true"/>
+		<!--宣布正式战争-->
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_JOINT_WAR" Favored="true"/>
+		<!--战争同盟-->
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="true"/>
+		<!--宣布突袭战争-->
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_COLONIAL_WAR" Favored="true"/>
+		<!--宣布殖民战争-->
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_TERRITORIAL_WAR" Favored="true"/>
+		<!--宣布领土扩张战争-->
+
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_HOLY_WAR" Favored="true"/>
+		<!--宣布圣战-->
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_LIBERATION_WAR" Favored="true"/>
+		<!--宣布解放战争-->
+		<Row ListType="FateQinAgendaAiListTypesProtect" Item="DIPLOACTION_DECLARE_RECONQUEST_WAR" Favored="true"/>
+		<!--宣布领土夺回战争-->
+		<Row ListType="FateQinAgendaAiListTypesProtect" Item="DIPLOACTION_DECLARE_PROTECTORATE_WAR" Favored="true"/>
+		
+		<!--宣布保卫城邦战争-->
+		<Row ListType="FateQinAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="true"/>		
+		
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_GENERAL" Value="100"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MERCHANT" Value="100"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_PROPHET" Value="200"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_WRITER" Value="25"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ARTIST" Value="25"/>
+		<Row ListType="FateQinAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="25"/>
+
+		<Row ListType="FateQinAgendaAiListTypesSpy" Item="DIPLOACTION_KEEP_PROMISE_DONT_SPY" Favored="false"/> <!-- ??? -->
+		
+		<Row ListType="FateQinAgendaAiListTypesNuke" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="500"/>
+		<Row ListType="FateQinAgendaAiListTypesNukeUse" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true"/>
+
+		<Row ListType="FateQinAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="100"/>
+		
+		<Row ListType="FateQinAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_VALUE" Value="50"/>
+
+
+		<Row ListType="FateQinAgendaAiListTypesBandit" Item="PSEUDOYIELD_CLEAR_BANDIT_CAMPS" Value="100"/>
+
+		<Row ListType="FateQinAgendaAiListTypesCityState" Item="PSEUDOYIELD_INFLUENCE" Value="100"/>
+
+
+	</AiFavoredItems>
+	
+	
+	
+	
+</GameData>

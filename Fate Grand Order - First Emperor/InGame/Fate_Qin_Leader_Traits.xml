@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader_Traits -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:12:55 PM -->
+<GameData>
+
+	<Types>
+
+
+		<Row Type="TRAIT_LEADER_QIN_DESC" Kind="KIND_TRAIT"/>
+		<Row Type="FATE_QIN_FIRST_EMPEROR_TRAIT" Kind="KIND_TRAIT"/>
+		
+	</Types>
+
+
+
+	<LeaderTraits>
+
+
+		<Row  LeaderType="LEADER_FATE_QIN" TraitType="TRAIT_LEADER_QIN_DESC"/>
+		<Row  LeaderType="LEADER_FATE_QIN" TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT"/>
+
+
+
+
+	</LeaderTraits>
+
+
+	<Traits>
+
+		<Row TraitType="TRAIT_LEADER_QIN_DESC" Name="LOC_LEADER_ABILITY_FATE_QIN_NAME" Description="LOC_LEADER_ABILITY_FATE_QIN_DESCRIPTION"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" Name="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_NAME" Description="LOC_TRAIT_LEADER_FATE_QIN_FIRST_EMPEROR_DESCRIPTION"/>
+		
+	</Traits>
+
+	<TraitModifiers>
+
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FATE_QIN_WONDER_PERCENT"/>
+		
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FATE_QIN_ADJUST_BUILDER_CHARGES"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FATE_QIN_ADJUST_BUILDER_MOVEMENT"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FATE_QIN_BUILDER_WONDER_PERCENT"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FATE_QIN_BUILDER_DISTRICT_PERCENT"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FATE_QIN_BUILDER_PROJECT_PERCENT"/>
+
+	</TraitModifiers>
+
+	<Modifiers>
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_ADJUST_BUILDER_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_ADJUST_BUILDER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_BUILDER_WONDER_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_WONDER_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WONDER_ERA_PRODUCTION</ModifierType>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_ADJUST_BUILDER_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_ADJUST_BUILDER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>		
+		
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_BUILDER_WONDER_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_WONDER_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_WONDER_PERCENT</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_WONDER_PERCENT</ModifierId>
+			<Name>StartEra</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_WONDER_PERCENT</ModifierId>
+			<Name>EndEra</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+
+	</ModifierArguments>
+
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_BUILDER_PROJECT_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_PROJECT_PERCENT</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_FATE_QIN_BUILDER_PROJECT_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameData>

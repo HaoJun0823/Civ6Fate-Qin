@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader_Objects -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/19/2018 8:35:12 PM -->
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_FATE_QIN_GREAT_WALL" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+
+	<Improvements>
+
+	<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" Name="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME" Description="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_GREAT_WALL" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_MASONRY" TraitType="TRAIT_CIVILIZATION_QIN_IMPROVEMENT_GREAT_WALL" BuildInLine="true" BuildOnFrontier="true" DefenseModifier="8" GrantFortification="2" Housing="2" TilesRequired="2" />
+	
+	</Improvements>
+	<Improvement_Adjacencies>
+
+		<!--
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="GreatWall_Gold"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="GreatWall_Culture"/>
+		-->
+
+		
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="Fate_Qin_GreatWall_Gold"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="Fate_Qin_GreatWall_Culture"/>
+
+
+				
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="Fate_Qin_GreatWall_Faith"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="Fate_Qin_GreatWall_Food"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="Fate_Qin_GreatWall_Production"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldChangeId="Fate_Qin_GreatWall_Science"/>
+	
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW_HILLS"/>
+		
+		<!--
+		
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_OCEAN"/>
+		
+		-->
+		
+	</Improvement_ValidTerrains>
+
+	<Improvement_ValidBuildUnits>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" UnitType="UNIT_BUILDER"/>
+		
+	</Improvement_ValidBuildUnits>
+	
+	<Improvement_YieldChanges>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldType="YIELD_FAITH" YieldChange="1"/>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		
+	</Improvement_YieldChanges>
+	
+	
+	<Improvement_Tourism>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		
+	</Improvement_Tourism>
+	
+	<Adjacency_YieldChanges>
+
+		<Row ID="Fate_Qin_GreatWall_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row ID="Fate_Qin_GreatWall_Science" Description="Placeholder" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Row ID="Fate_Qin_GreatWall_Gold" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL" PrereqTech="TECH_ECONOMICS"/>
+		<Row ID="Fate_Qin_GreatWall_Culture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL" PrereqTech="TECH_RADIO"/>
+		<Row ID="Fate_Qin_GreatWall_Faith" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL" PrereqTech="TECH_ELECTRICITY"/>
+		<Row ID="Fate_Qin_GreatWall_Food" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL" PrereqTech="TECH_STEEL"/>
+		
+	</Adjacency_YieldChanges>
+
+</GameData>

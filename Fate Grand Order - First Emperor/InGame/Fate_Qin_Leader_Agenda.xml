@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader_Agenda -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:14:11 PM -->
+<GameData>
+
+	<Types>
+
+
+		<Row Type="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Agendas>
+
+		<Row AgendaType="AGENDA_FATE_QIN_WONDER_OBSESSED" Name="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_NAME" Description="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_DESCRIPTION"/>
+		
+	</Agendas>
+
+	<HistoricalAgendas>
+
+		<Row LeaderType="LEADER_FATE_QIN" AgendaType="AGENDA_FATE_QIN_WONDER_OBSESSED"/>
+		
+	</HistoricalAgendas>
+
+	<Traits>
+
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+
+	</Traits>
+
+	<AgendaTraits>
+
+		<Row AgendaType="AGENDA_FATE_QIN_WONDER_OBSESSED" TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED"/>
+		
+	</AgendaTraits>
+
+	<TraitModifiers>
+
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" ModifierId="AGENDA_MODIFIER_LAGS_WONDERS"/>
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" ModifierId="AGENDA_MODIFIER_LEADS_WONDERS"/>
+
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" ModifierId="AGENDA_ALLY_OF_ENKIDU_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" ModifierId="AGENDA_ALLY_OF_ENKIDU_DENOUNCED_FRIEND"/>
+
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" ModifierId="AGENDA_CONTINENT_ATTACKED"/>
+		<Row TraitType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" ModifierId="AGENDA_CONTINENT_PEACEFUL"/>
+
+
+		
+	</TraitModifiers>
+
+</GameData>

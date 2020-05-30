@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_loc_pre -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/15/2018 2:44:10 PM -->
+<GameData>
+
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_FATE_QIN_NAME" Language="zh_Hans_CN">
+			<Text>始皇帝</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_FATE_QIN_NAME" Language="zh_Hans_CN">
+			<Text>永世帝王</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_FATE_QIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当你触发尤里卡或鼓舞的时候，你正在建造的建筑、区域、单位和项目当前的进度立刻分别增加25%和50%。[NEWLINE]当你同时拥有[ICON_RESOURCE_TEA]茶叶、[ICON_RESOURCE_MERCURY]水银、[ICON_RESOURCE_SILK]丝绸、[ICON_RESOURCE_JADE]玉石的时候，你的宗教传播距离和强度会提高200%，研究无线电之后强度再提高200%。[NEWLINE]盟友和始皇帝之间的商路会额外为双方提供16点[ICON_SCIENCE]和[ICON_CULTURE]。[NEWLINE]拥有总督的城市[ICON_Citizen]产出+3[ICON_Gold]并且收获地区时+100%收成，训练的单位提高2点[ICON_Movement]并且可以购买区域。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_NAME" Language="zh_Hans_CN">
+			<Text>秦</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>亘古至今</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_DESCRPTION" Language="zh_Hans_CN">
+			<Text>拥有中国文明及所有中国领袖的全部强化版能力。（以官方内容为准并根据资料片而变化）。[NEWLINE]当你的城市拥有太空站的时候，提高25%[ICON_SCIENCE]产出，没有太空站则提高25%[ICON_CULTURE]产出。[NEWLINE]当你的城市拥有机场的时候，你的边界扩张效率提高100%，没有机场则人口增长提高100%。[NEWLINE]黄金时代时，天基长城和宇宙中心拥有文化炸弹功能并且[ICON_TourismLarge]旅游业绩提高200%，你的[ICON_Envoy]每回合+6点；黑暗时代时，通过[ICON_GOLD]和[ICON_FAITH]购买折扣50%，单位经验提高200%，建造单位时[ICON_PRODUCTION]提高100%。</Text>
+		</Row>
+
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_FATE_QIN_NAME" Language="zh_Hant_HK">
+			<Text>始皇帝</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_FATE_QIN_NAME" Language="zh_Hant_HK">
+			<Text>永世帝王</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_FATE_QIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當你觸發尤里卡或鼓舞的時候，你正在建造的建築、區域、單位和項目當前的進度立刻分別增加25%和50%。 [NEWLINE]當你同時擁有[ICON_RESOURCE_TEA]茶葉、[ICON_RESOURCE_MERCURY]水銀、[ICON_RESOURCE_SILK]絲綢、[ICON_RESOURCE_JADE]玉石的時候，你的宗教傳播距離和強度會提高200%，研究無線電之後強度再提高200%。 [NEWLINE]盟友和始皇帝之間的商路會額外為雙方提供16點[ICON_SCIENCE]和[ICON_CULTURE]。 [NEWLINE]擁有總督的城市[ICON_Citizen]產出+3[ICON_Gold]並且收穫地區時+100%收成，訓練的單位提高2點[ICON_Movement]並且可以購買區域。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_NAME" Language="zh_Hant_HK">
+			<Text>秦</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_NAME" Language="zh_Hant_HK">
+			<Text>亙古至今</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_DESCRPTION" Language="zh_Hant_HK">
+			<Text>擁有中國文明及所有中國領袖的全部強化版能力。 （以官方內容為準並根據資料片而變化）。 [NEWLINE]當你的城市擁有太空站的時候，提高25%[ICON_SCIENCE]產出，沒有太空站則提高25%[ICON_CULTURE]產出。 [NEWLINE]當你的城市擁有機場的時候，你的邊界擴張效率提高100%，沒有機場則人口增長提高100%。 [NEWLINE]黃金時代時，天基長城和宇宙中心擁有文化炸彈功能並且[ICON_TourismLarge]旅遊業績提高200%，你的[ICON_Envoy]每回合+6點；黑暗時代時，通過[ICON_GOLD]和[ICON_FAITH]購買折扣50%，單位經驗提高200%，建造單位時[ICON_PRODUCTION]提高100%。</Text>
+		</Row>
+
+	</LocalizedText>
+
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_FATE_QIN_NAME" >
+			<Text>First Emperor</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_FATE_QIN_NAME" >
+			<Text>Emperor of eternity</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_FATE_QIN_DESCRIPTION" >
+			<Text>When you trigger Eureka or inspire, the current progress of the buildings, areas, units, and projects you are building is immediately increased by 25% and 50%, respectively. [NEWLINE]When you have both [ICON_RESOURCE_TEA] tea, [ICON_RESOURCE_MERCURY] mercury, [ICON_RESOURCE_SILK] silk, [ICON_RESOURCE_JADE] jade, your religious distance and intensity will increase by 200%, and the intensity of the radio will increase by 200%. [NEWLINE]The trade route between the ally and the first emperor will provide 16 points [ICON_SCIENCE] and [ICON_CULTURE] for both parties. [NEWLINE]The city with the Governor's [ICON_Citizen] output +3[ICON_Gold] and the harvested area +100% harvest, the training unit increased by 2 points [ICON_Movement] and the area can be purchased. </Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_NAME" >
+			<Text>Qin</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_NAME" >
+			<Text>From ancient times to the present</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_DESCRPTION" >
+			<Text>It has all the enhanced capabilities of Chinese civilization and all Chinese leaders. (Subject to official content and vary according to the expansion). [NEWLINE]When your city has a space station, it increases the output by 25% [ICON_SCIENCE], and without the space station it increases the output by 25% [ICON_CULTURE]. [NEWLINE]When you have a city with an airport, your border expansion efficiency is increased by 100%, and without an airport, population growth is increased by 100%. [NEWLINE]When the Golden Age, the Space-based Great Wall and the Center of the Universe have a cultural bomb function and [ICON_TourismLarge] travel performance increased by 200%, your [ICON_Envoy] +6 points per turn; in the dark age, through [ICON_GOLD] and [ICON_FAITH] Purchase discounts of 50%, unit experience increased by 200%, and [ICON_PRODUCTION] increased by 100% when building units.</Text>
+		</Row>
+
+	</BaseGameText>
+
+</GameData>

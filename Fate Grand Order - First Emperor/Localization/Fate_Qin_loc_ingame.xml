@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_loc_ingame -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/16/2018 12:22:21 PM -->
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>大秦帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>始皇帝的子民</Text>
+		</Row>
+<!--
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_QIN" Language="zh_Hans_CN">
+			<Text>
+				嬴政，别名始皇帝。[NEWLINE]公元前221年便统一了中国大陆，自称最初的『皇帝』。[NEWLINE]实际上乃是存在于异闻带・中国的始皇帝的姿态。[NEWLINE]这便是使用源自中央集权制度的莫大权力，将全部力倾注于内政与技术开发，并且尝试凭借探求仙道来更新生命大限的，真人的最终结论。[NEWLINE]异闻带中的嬴政通过回收和分析殷商时代的仙人·太乙真人所制作的人造人残骸，获得了将肉身机械化的技术。[NEWLINE]于是，实现了不老不死这一夙愿的始皇帝，用铁壁般的治世避免了战乱时代的到来，也导致中国在西方文艺复兴之前完成了工业革命，以压倒性的技术水准征服了全世界。
+			</Text>
+		</Row>
+-->
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_QIN" Language="zh_Hans_CN">
+			<Text>
+				没有任何伟大能够与您的功业相提并论，始皇帝嬴政。您觅得了仙道，以永世帝皇之姿，统合亿兆之智，创造了泛人类史所难以企及的千年帝国。折冲宇宙，长城万里亘焉，骊山的英雄们让您的威强永固；您为了子民鞠躬尽瘁，用最先进的技术，以纵横的星舰将恩泽被覆四海。愿您的子民不要堕入儒的圈套，自由的卑劣阴谋终将在核子虎蹲炮的咆哮中粉碎。聆听田野中子民的赞颂，玩赏宫廷匠师的奇巧作品吧，您的帝国将万世恒伫。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔姆，朕许了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕不悦于与尔等同行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>天下之大无奇不有，想与朕一同前去吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔。有劳了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔，再议……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>国家昌盛离不开天下太平，朕自始至终明白这一点，但若不能清除外敌，消灭威胁，又怎能在乱世之中统一天下？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>大胆！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>没想到……这小兵小卒倒是引起朕的兴致来了，尔与我的纷争，下次再议吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>哼！这才只是三分力气！下次见面可修怪朕不留情面！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔姆唔姆……朕有点想去你那里游览一番了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>这种简单的东西，不需要。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>这是朕最新生产的超级量子聚变反应堆核心！就送给你吧！怎么……不会用吗？那就当暖炉用吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>放肆！竟然敢侮辱朕！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕早就知道你的事情了，下次，就是朕来惩罚你的时候！[NEWLINE]（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕乃天命之子，中华之主，嬴政！你有什么事要上奏吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>这是朕的太空站，过来看看吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕对你的民族越来越感兴趣了呢，能不能和朕讲一讲？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>早安。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔姆唔姆，朕要表扬你。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FATE_QIN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（嬴政对您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>真是无可救药……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FATE_QIN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（嬴政对您的好感减少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕允你与我同盟。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>哼，下次，朕就没有这么宽宏大量了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>想要临阵脱逃？无耻之徒！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>休战休战！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕准了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔姆……此时不可。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>朕需要通过你的领域，可否？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>唔姆，真是一群老旧的军队呢……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_TITLE" Language="zh_Hans_CN">
+			<Text>嬴政</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_SUBTITLE" Language="zh_Hans_CN">
+			<Text>来自异闻带的永生皇帝</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_QUOTE" Language="zh_Hans_CN">
+			<Text>唔姆！</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>{LOC_LOADING_INFO_LEADER_FATE_QIN}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>嬴政是一个复杂的领袖，没有良好的对策。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>嬴政适合多种方向发展。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_FATE_QIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>这是嬴政穿越空间所带来的部队组成的国家，他通晓千古历史，所以可以使用任何能力。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_ZHEN_CHAPTER_HISTORY_PARA_1" Language ="zh_Hans_CN">
+			<Text>很奇妙的……信仰？</Text>
+		</Row>
+
+		<Row Tag="LOC_RELIGION_ZHEN" Language ="zh_Hans_CN">
+			<Text>朕</Text>
+		</Row>
+		
+		
+
+	</LocalizedText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>大秦帝國</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>始皇帝的子民</Text>
+		</Row>
+<!--
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_QIN" Language="zh_Hant_HK">
+			<Text>
+				嬴政，別名始皇帝。[NEWLINE]公元前221年便統壹了中國大六，自稱最初的『皇帝』。[NEWLINE]實際上乃是存在於異聞帶・中國的始皇帝的姿態。[NEWLINE]這便是使用源自中央集權制度的莫大權力，將全部力傾註於內政與技術開發，並且嘗試憑借探求仙道來更新生命大限的，真人的最終結論。[NEWLINE]異聞帶中的嬴政通過回收和分析殷商時代的仙人·太乙真人所制作的人造人殘骸，獲得了將肉身機械化的技術。[NEWLINE]於是，實現了不老不死這壹夙願的始皇帝，用鐵壁般的治世避免了戰亂時代的到來，也導致中國在西方文藝復興之前完成了工業革命，以壓倒性的技術水準征服了全世界。
+			</Text>
+		</Row>
+-->
+
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_QIN" Language="zh_Hant_HK">
+			<Text>
+				沒有任何偉大能夠與您的功業相提並論，始皇帝嬴政。您覓得了仙道，以永世帝皇之姿，統合億兆之智，創造了泛人類史所難以企及的千年帝國。折沖宇宙，長城萬裏亙焉，驪山的英雄們讓您的威強永固；您為了子民鞠躬盡瘁，用最先進的技術，以縱橫的星艦將恩澤被覆四海。願您的子民不要墮入儒的圈套，自由的卑劣陰謀終將在核子虎蹲炮的咆哮中粉碎。聆聽田野中子民的贊頌，玩賞宮廷匠師的奇巧作品吧，您的帝國將萬世恒佇。
+			</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔姆，朕許了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕不悅於與爾等同行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>天下之大無奇不有，想與朕壹同前去嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔。有勞了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔，再議……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>國家昌盛離不開天下太平，朕自始至終明白這壹點，但若不能清除外敵，消滅威脅，又怎能在亂世之中統壹天下？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>大膽！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>沒想到……這小兵小卒倒是引起朕的興致來了，爾與我的紛爭，下次再議吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>哼！這才只是三分力氣！下次見面可修怪朕不留情面！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔姆唔姆……朕有點想去妳那裏遊覽壹番了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>這種間單的東西，不需要。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>這是朕最新生產的超級量子聚變反應堆核心！就送給妳吧！怎麼……不會用嗎？那就當暖爐用吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>放肆！竟然敢侮辱朕！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕早就知道妳的事情了，下次，就是朕來懲罰妳的時候！[NEWLINE]（譴責妳）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕乃天命之子，中華之主，嬴政！妳有什麼事要上奏嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>這是朕的太空站，過來看看吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕對妳的民族越來越感興趣了呢，能不能和朕講壹講？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>早安。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔姆唔姆，朕要表揚妳。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FATE_QIN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（嬴政對您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>真是無可救藥……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FATE_QIN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（嬴政對您的好感減少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕允妳與我同盟。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>哼，下次，朕就沒有這麼寬宏大量了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>想要臨陣脫逃？無恥之徒！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>休戰休戰！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕準了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔姆……此時不可。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>朕需要通過妳的領域，可否？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>唔姆，真是壹群老舊的軍隊呢……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FATE_QIN_ANY" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_TITLE" Language="zh_Hant_HK">
+			<Text>嬴政</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_SUBTITLE" Language="zh_Hant_HK">
+			<Text>來自異聞帶的永生皇帝</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_QUOTE" Language="zh_Hant_HK">
+			<Text>唔姆！</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>{LOC_LOADING_INFO_LEADER_FATE_QIN}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>嬴政是壹個復雜的領袖，沒有良好的對策。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>嬴政這合多種方向發展。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_FATE_QIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>這是嬴政穿越空間所帶來的部隊組成的國家，他通曉千古歷史，所以可以使用任何能力。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_ZHEN_CHAPTER_HISTORY_PARA_1" Language ="zh_Hant_HK">
+			<Text>很奇妙的……信仰？</Text>
+		</Row>
+
+		<Row Tag="LOC_RELIGION_ZHEN" Language ="zh_Hant_HK">
+			<Text>朕</Text>
+		</Row>
+
+
+	</LocalizedText>
+
+
+	<BaseGameText>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_DESCRIPTION" >
+			<Text>The Great Qin Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_ADJECTIVE" >
+			<Text>The people of the first emperor</Text>
+		</Row>
+
+		<!--
+		
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_QIN" >
+			<Text>
+				Ying Zheng, alias the First Emperor.[NEWLINE]He unified China in 221 BC and claimed to be the original "Emperor." [NEWLINE] Actually, he is the form of the First Emperor existed in the Lostbelt. [NEWLINE] The First Emperor is the final conclusion of devoting all efforts to internal affairs and technology development and trying to update the life limit by exploring the immortal-Taoist via using the power from the centralization system [NEWLINE]In the Lostbelt, Ying Zheng obtained the technology of mechanization of flesh via recycling and analyzing the man-made wreckage made by the immortal Taiyi in the Yin Dynasty. [NEWLINE]Therefore, the First Emperor, who realized the long-cherished wish of the immortality, avoided the advent of the war era with the iron wall-like rule of the world. He also led China to complete the industrial revolution before the Western Renaissance and conquer the world with overwhelming technical standards.
+			</Text>
+		</Row>
+
+		-->
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FATE_QIN" >
+			<Text>
+				No grandeur can be mentioned in the same breath with your achievements, Zheng The First Emperor. You have found the immortal way, and devote yourself into the posture of an eternal ruler who integrates the wisdom of trillions and creates a thousand-year Empire beyond all reach of general human history. Straight into the universe,where the Great Wall stretches across; The heroes from the Palace of Li mountain make you power permanent. You dedicate yourself to your people and covered the whole world with your bounty by the vertical and horizontal interstellar spaceship based on the most advanced technology. May your people not fall into the trap of Confucianism, and the despicable conspiracy of freedom will eventually be crushed in the blare of Nuclear Chouching Tigers. Listen to the praises of the people in the fields and enjoy the wonderful works of the court craftsmen. Your empire will last forever.
+			</Text>
+		</Row>
+		
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>Hum, I will allow you to do it.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>I don't want to go with you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>The world is amazing, do you want to go with me?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>Well. Have a job!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>Oh, let's talk again...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>The prosperity of the country cannot be separated from the peace of the world. You understand this from beginning to end. But if you can't clear the foreign enemy and eliminate the threat, how can you unify the world in the troubled times?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>Bold!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>I didn't expect that this small soldier was a cause of embarrassment, and your dispute with me will be discussed next time!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>Humph! This is just a three-point effort! Don't be blameless when you meet next time!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>Hum. I want to go there for a while.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>This simple thing is not needed.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>This is the core of the newly produced super quantum fusion reactor! Just give it to you! How... will it not work? Then use it as a heater!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>presumptuous! Dare to insult!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>I already know what you're doing. Next time, it's time for me to punish you! [NEWLINE](Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FATE_QIN_ANY" >
+			<Text>I am the son of the destiny, the Lord of China, Do you have anything to play?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FATE_QIN_ANY" >
+			<Text>This is my space station, come check it out!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FATE_QIN_ANY" >
+			<Text>I am more and more interested in your nation. Can you tell me something about it?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FATE_QIN_ANY" >
+			<Text>Good day.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FATE_QIN_ANY" >
+			<Text>Well, I want to commend you.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FATE_QIN_REASON_ANY" >
+			<Text>(Qin has increased your affection for you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FATE_QIN_ANY" >
+			<Text>It's hopeless...
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FATE_QIN_REASON_ANY" >
+			<Text>(Qin has reduced his affection for you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>I promise you to be with me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FATE_QIN_ANY" >
+			<Text>Hey, next time, I am not so generous!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FATE_QIN_ANY" >
+			<Text>Want to escape? shameless!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>Truce!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>I allowed it.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FATE_QIN_ANY" >
+			<Text>Hum, not at this time.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>I need to pass your field, can you?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FATE_QIN_ANY" >
+			<Text>Hum, really a group of old troops...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FATE_QIN_ANY" >
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FATE_QIN_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_TITLE" >
+			<Text>Ying Zheng</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_SUBTITLE" >
+			<Text>The Emperor of Eternal from the Heterogeneous Belt</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_QUOTE" >
+			<Text>Hum!</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_HISTORY_PARA_1" >
+			<Text>{LOC_LOADING_INFO_LEADER_FATE_QIN}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_CAPSULE_BODY" >
+			<Text>He is a complex leader and has no good countermeasures.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FATE_QIN_CHAPTER_DETAILED_BODY" >
+			<Text>He is suitable for development in a variety of ways.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_FATE_QIN_CHAPTER_HISTORY_PARA_1" >
+			<Text>This is the country that he formed through the forces brought by the space. He knows the history of the ages, so he can use any ability.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_ZHEN_CHAPTER_HISTORY_PARA_1" >
+			<Text>Very wonderful...faith?</Text>
+		</Row>
+
+		<Row Tag="LOC_RELIGION_ZHEN" >
+			<Text>Zhen</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_NAME" >
+			<Text>Human integration</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_DESCRIPTION" >
+			<Text>?????</Text>
+		</Row>
+	</BaseGameText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_NAME" Language="zh_Hans_CN">
+			<Text>人智统合</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_NAME" Language="zh_Hant_HK">
+			<Text>人智統合</Text>
+		</Row>
+
+
+		<Row Tag="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>?????</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FATE_QIN_WONDER_OBSESSED_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>?????</Text>
+		</Row>
+
+
+	</LocalizedText>
+	
+</GameData>

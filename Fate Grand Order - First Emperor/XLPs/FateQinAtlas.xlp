@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_256"/>
+			<m_ObjectName text="ICON_FATE_QIN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_32"/>
+			<m_ObjectName text="ICON_FATE_QIN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_45"/>
+			<m_ObjectName text="ICON_FATE_QIN_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_48"/>
+			<m_ObjectName text="ICON_FATE_QIN_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_50"/>
+			<m_ObjectName text="ICON_FATE_QIN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_55"/>
+			<m_ObjectName text="ICON_FATE_QIN_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_64"/>
+			<m_ObjectName text="ICON_FATE_QIN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_80"/>
+			<m_ObjectName text="ICON_FATE_QIN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_45"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_128"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_200"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_22"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_256"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_30"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_32"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_36"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_44"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_48"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_50"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_64"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FATE_QIN_CIV_Symbol_80"/>
+			<m_ObjectName text="ICON_FATE_QIN_CIV_Symbol_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionsZhen100"/>
+			<m_ObjectName text="ReligionsZhen100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionsZhen22"/>
+			<m_ObjectName text="ReligionsZhen22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionsZhen50"/>
+			<m_ObjectName text="ReligionsZhen50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Zhen"/>
+			<m_ObjectName text="Religion_Zhen"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

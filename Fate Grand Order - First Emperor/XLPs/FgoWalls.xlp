@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="DynamicGeometry"/>
+	<m_PackageName text="FgoWalls"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FGO_Decal_ANC_Great_wall1"/>
+			<m_ObjectName text="FGO_Decal_ANC_Great_wall1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FGO_Great_halfwall_Decal_PIL"/>
+			<m_ObjectName text="FGO_Great_halfwall_Decal_PIL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FGO_Great_Wall_Decal"/>
+			<m_ObjectName text="FGO_Great_Wall_Decal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FGO_Great_Wall_Decal_wall"/>
+			<m_ObjectName text="FGO_Great_Wall_Decal_wall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FGO_Great_Wall_end"/>
+			<m_ObjectName text="FGO_Great_Wall_end"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FGO_Great_Wall_tower_PIL_Decal"/>
+			<m_ObjectName text="FGO_Great_Wall_tower_PIL_Decal"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_loc_mod_desc -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/15/2018 2:33:00 PM -->
+<GameData>
+	<BaseGameText>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_NAME" >
+			<Text>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_AUTHOR" >
+			<Text>HaoJun0823，Entarogan</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_THANKS" >
+			<Text>All players, modders and TYPE-MOON.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_TEASER" >
+			<Text>Hum!</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_DESCRIPTION" >
+			<Text>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you![NEWLINE]Github:[NEWLINE]https://github.com/HaoJun0823/Civ6Fate-Qin </Text>
+		</Row>
+
+	</BaseGameText>
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_SCIENCE]Fate/Grand Order 秦[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_AUTHOR" Language="zh_Hans_CN">
+			<Text>HaoJun0823，Entarogan</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_THANKS" Language="zh_Hans_CN">
+			<Text>所有玩家，模组制作者以及型月。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_TEASER" Language="zh_Hans_CN">
+			<Text>唔姆！</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支持语言：英语，简体中文，繁体中文。[NEWLINE][NEWLINE]提示：这个角色来自于 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你发现了任何Bug，请及时告知于我，我会修复它，感谢！[NEWLINE]Github:[NEWLINE]https://github.com/HaoJun0823/Civ6Fate-Qin </Text>
+		</Row>
+
+	</LocalizedText>
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR_FLOAT_SCIENCE]Fate/Grand Order 秦[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_AUTHOR" Language="zh_Hant_HK">
+			<Text>HaoJun0823，Entarogan</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_THANKS" Language="zh_Hant_HK">
+			<Text>所有玩家，模組製作者以及型月。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_TEASER" Language="zh_Hant_HK">
+			<Text>唔姆！</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>支持語言：英語，簡體中文，繁體中文。[NEWLINE][NEWLINE]提示：這個角色來自於 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你發現了任何Bug，請及時告知於我，我會修復它，感謝！[NEWLINE]Github:[NEWLINE]https://github.com/HaoJun0823/Civ6Fate-Qin </Text>
+		</Row>
+
+	</LocalizedText>
+
+	<!--
+	
+	<LocalizedText>
+		<Text id="LOC_CIVILIZATION_FATE_QIN_MOD_NAME">
+			<en_US>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</en_US>
+            <de_DE>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</de_DE>
+            <es_ES>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</es_ES>
+            <fr_FR>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</fr_FR>
+            <it_IT>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</it_IT>
+            <ja_JP>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</ja_JP>
+            <ko_KR>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</ko_KR>
+            <pl_PL>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</pl_PL>
+            <pt_BR>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</pt_BR>
+            <ru_RU>[COLOR_FLOAT_SCIENCE]Fate/Grand Order Qin[ENDCOLOR]</ru_RU>
+			<zh_Hans_CN>[COLOR_FLOAT_SCIENCE]Fate/Grand Order 秦[ENDCOLOR]</zh_Hans_CN>
+			<zh_Hant_HK>[COLOR_FLOAT_SCIENCE]Fate/Grand Order 秦[ENDCOLOR]</zh_Hant_HK>
+		</Text>
+		
+		
+		
+		<Text id="LOC_CIVILIZATION_FATE_QIN_MOD_AUTHOR">
+			<en_US>HaoJun0823, Entarogan</en_US>
+            <de_DE>HaoJun0823, Entarogan</de_DE>
+            <es_ES>HaoJun0823, Entarogan</es_ES>
+            <fr_FR>HaoJun0823, Entarogan</fr_FR>
+            <it_IT>HaoJun0823, Entarogan</it_IT>
+            <ja_JP>HaoJun0823, Entarogan</ja_JP>
+            <ko_KR>HaoJun0823, Entarogan</ko_KR>
+            <pl_PL>HaoJun0823, Entarogan</pl_PL>
+            <pt_BR>HaoJun0823, Entarogan</pt_BR>
+            <ru_RU>HaoJun0823, Entarogan</ru_RU>
+			<zh_Hans_CN>HaoJun0823, Entarogan</zh_Hans_CN>
+			<zh_Hant_HK>HaoJun0823, Entarogan</zh_Hant_HK>
+		</Text>
+		
+		
+		
+		<Text id="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_THANKS">
+			<en_US>All players, modders and TYPE-MOON.</en_US>
+            <de_DE>All players, modders and TYPE-MOON.</de_DE>
+            <es_ES>All players, modders and TYPE-MOON.</es_ES>
+            <fr_FR>All players, modders and TYPE-MOON.</fr_FR>
+            <it_IT>All players, modders and TYPE-MOON.</it_IT>
+            <ja_JP>All players, modders and TYPE-MOON.</ja_JP>
+            <ko_KR>All players, modders and TYPE-MOON.</ko_KR>
+            <pl_PL>All players, modders and TYPE-MOON.</pl_PL>
+            <pt_BR>All players, modders and TYPE-MOON.</pt_BR>
+            <ru_RU>All players, modders and TYPE-MOON.</ru_RU>
+			<zh_Hans_CN>所有玩家，模组制作者以及型月。</zh_Hans_CN>
+			<zh_Hant_HK>所有玩家，模組製作者以及型月。</zh_Hant_HK>
+		</Text>
+		
+			<Text id="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_TEASER">
+			<en_US>Hum!</en_US>
+            <de_DE>Hum!</de_DE>
+            <es_ES>Hum!</es_ES>
+            <fr_FR>Hum!</fr_FR>
+            <it_IT>Hum!</it_IT>
+            <ja_JP>Hum!</ja_JP>
+            <ko_KR>Hum!</ko_KR>
+            <pl_PL>Hum!</pl_PL>
+            <pt_BR>Hum!</pt_BR>
+            <ru_RU>Hum!</ru_RU>
+			<zh_Hans_CN>唔姆！</zh_Hans_CN>
+			<zh_Hant_HK>唔姆！</zh_Hant_HK>
+		</Text>	
+		
+
+		<Text id="LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_DESCRIPTION">
+			<en_US>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</en_US>
+            <de_DE>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</de_DE>
+            <es_ES>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</es_ES>
+            <fr_FR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</fr_FR>
+            <it_IT>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</it_IT>
+            <ja_JP>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ja_JP>
+            <ko_KR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ko_KR>
+            <pl_PL>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</pl_PL>
+            <pt_BR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</pt_BR>
+            <ru_RU>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ru_RU>
+			<zh_Hans_CN>支持语言：英语，简体中文，繁体中文。[NEWLINE][NEWLINE]提示：这个角色来自于 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你发现了任何Bug，请及时告知于我，我会修复它，感谢！</zh_Hans_CN>
+			<zh_Hant_HK>支持語言：英語，簡體中文，繁體中文。[NEWLINE][NEWLINE]提示：這個角色來自於 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你發現了任何Bug，請及時告知於我，我會修復它，感謝！</zh_Hant_HK>
+		</Text>		
+		
+  	</LocalizedText>
+	
+	
+	-->
+
+
+
+
+
+
+
+
+</GameData>

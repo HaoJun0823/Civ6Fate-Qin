@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Icons -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:06:34 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_32"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_45"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_48"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_50"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_55"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_64"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_80"/>
+		<Row Name="ICON_FATE_QIN_ATLAS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_256"/>
+
+
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_22"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_30"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_32"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_36"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_44"/>
+		<!--
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_45"/>
+		-->
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_48"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_50"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_64"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_80"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_128"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_200"/>
+		<Row Name="ICON_FATE_QIN_CIV" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FATE_QIN_CIV_Symbol_256"/>
+
+		<Row Name="ICON_ATLAS_RELIGIONS_Zhen" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionsZhen22"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_Zhen" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionsZhen50"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_Zhen" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionsZhen100"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_Zhen_Big" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="Religion_Zhen"/>
+		
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_FATE_QIN" Atlas="ICON_FATE_QIN_ATLAS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_FATE_QIN" Atlas="ICON_FATE_QIN_CIV" Index="0"/>
+		<Row Name="ICON_RELIGION_ZHEN" Atlas="ICON_ATLAS_RELIGIONS_Zhen" Index="0"/>
+		<Row Name="ICON_RELIGION_ZHEN" Atlas="ICON_ATLAS_RELIGIONS_Zhen_Big" Index="0"/>
+
+		<!--
+		<Row Name="ICON_DISTRICT_SPACEPORT_FATE_QIN_X" Atlas="ICON_ATLAS_DISTRICTS" Index="12"/>
+		<Row Name="ICON_DISTRICT_SPACEPORT_FATE_QIN_X_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="12"/>
+		-->
+		<Row Name="ICON_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X"         Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
+		<Row Name="ICON_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_FOW"       Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="9"/>
+
+		<Row Name="ICON_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER"  Atlas="ICON_ATLAS_UNITS" Index="50"/>
+		<Row Name="ICON_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_FOW"  Atlas="ICON_ATLAS_UNITS_FOW" Index="50"/>
+
+		<Row Name="ICON_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_PORTRAIT"                 Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="29"/>
+		<Row Name="ICON_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_PORTRAIT"      Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="48"/>
+
+		<Row Name="ICON_IMPROVEMENT_FATE_QIN_GREAT_WALL"               	Atlas="ICON_ATLAS_UNIT_ACTIONS"   Index="18"/>
+
+		<Row Name="ICON_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK"             Atlas="ICON_ATLAS_UNITS" Index="95"/>
+		<Row Name="ICON_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_FOW"             Atlas="ICON_ATLAS_UNITS_FOW" Index="95"/>
+		
+	</IconDefinitions>
+
+</GameData>

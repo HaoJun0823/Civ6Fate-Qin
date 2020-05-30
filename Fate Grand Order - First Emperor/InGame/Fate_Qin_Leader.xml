@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:03:12 PM -->
+<GameData>
+
+
+	<Types>
+		<Row Type="LEADER_FATE_QIN" Kind="KIND_LEADER"/>
+		
+
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_FATE_QIN" NAME="LOC_LEADER_FATE_QIN_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" />
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FATE_QIN" Quote="LOC_DIPLO_FIRST_MEET_LEADER_FATE_QIN_ANY"/>
+	</LeaderQuotes>
+
+
+</GameData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_UI -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:06:47 PM -->
+<GameData>
+	<!--
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_FATE_QIN_PRIMARY</Type>
+			<Color>0,0,0,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_FATE_QIN_SECONDARY</Type>
+			<Color>44,142,143,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_FATE_QIN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_FATE_QIN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_FATE_QIN_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_MIDDLE_CYAN_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	-->
+
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FATE_QIN" ForegroundImage="LEADER_FATE_QIN_NEUTRAL_2" BackgroundImage="LEADER_FATE_QIN_BACKGROUND_LOAD" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_FATE_QIN" BackgroundImage="LEADER_FATE_QIN_BACKGROUND"/>
+	</DiplomacyInfo>
+
+	<MomentIllustrations>
+
+		
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_FATE_QIN_GREAT_WALL" Texture="Moment_Infrastructure_China.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER" Texture="Moment_UniqueUnit_China.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_ZHEN" Texture="PM_FoundedReligion_Taoism"/>
+		<!--
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_SPACEPORT_FATE_QIN_X" Texture="Moment_EraEntry_Atomic.dds"/>
+		-->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X" Texture="Moment_EraEntry_Atomic.dds"/>
+	
+	</MomentIllustrations>
+
+</GameData>

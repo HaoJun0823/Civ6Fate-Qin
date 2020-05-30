@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="FateQinUnits"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Fgo_CrouchingTiger_ArmorA"/>
+			<m_ObjectName text="Fgo_CrouchingTiger_ArmorA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FGO_ModernArmor"/>
+			<m_ObjectName text="FGO_ModernArmor"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

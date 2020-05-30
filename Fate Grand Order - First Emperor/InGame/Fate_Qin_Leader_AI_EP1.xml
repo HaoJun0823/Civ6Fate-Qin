@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader_AI_EP1 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:15:34 PM -->
+<GameData>
+	<AiListTypes>
+		<Row ListType="FateQinAgendaAiListTypesPeaceEp1"/>
+		<Row ListType="FateQinAgendaAiListTypesProtectEp1"/>
+		<Row ListType="FateQinAgendaAiListTypesGreatEp1"/>
+	</AiListTypes>
+	<AILists>
+		<Row ListType="FateQinAgendaAiListTypesPeaceEp1" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+		<Row ListType="FateQinAgendaAiListTypesProtectEp1" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="DiplomaticActions"/>
+		<Row ListType="FateQinAgendaAiListTypesGreatEp1" AgendaType="TRAIT_AGENDA_FATE_QIN_WONDER_OBSESSED" System="PseudoYields"/>
+	</AILists>
+	<AiFavoredItems>
+		<Row ListType="FateQinAgendaAiListTypesPeaceEp1" Item="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR" Favored="true"/>
+		<Row ListType="FateQinAgendaAiListTypesProtectEp1" Item="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION" Favored="true"/>
+		<Row ListType="FateQinAgendaAiListTypesPeaceEp1" Item="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR" Favored="true"/>
+
+
+		<Row ListType="FateQinAgendaAiListTypesGreatEp1" Item="PSEUDOYIELD_GOLDENAGE_POINT" Value="250"/>
+		<Row ListType="FateQinAgendaAiListTypesGreatEp1" Item="PSEUDOYIELD_GOVERNOR" Value="25"/>
+
+		<Row ListType="FateQinWonders" Item="BUILDING_POTALA_PALACE" Favored="true"/>
+		
+	</AiFavoredItems>
+
+
+
+
+
+
+
+
+
+</GameData>

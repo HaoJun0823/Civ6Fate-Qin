@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Config_EP2 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2019/1/5 20:13:11 -->
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_FATE_QIN</CivilizationType>
+			<LeaderType>LEADER_FATE_QIN</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_FATE_QIN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_FATE_QIN</CivilizationIcon>
+
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_DESCRPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_FATE_QIN</CivilizationAbilityIcon>
+
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_FATE_QIN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FATE_QIN</LeaderIcon>
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_FATE_QIN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_FATE_QIN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FATE_QIN</LeaderAbilityIcon>
+
+
+			<Portrait>LEADER_FATE_QIN_NEUTRAL</Portrait>
+
+		</Row>
+	</Players>
+
+
+
+	<PlayerItems>
+		<!--
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FATE_QIN</CivilizationType>
+			<LeaderType>LEADER_FATE_QIN</LeaderType>
+			<Type>DISTRICT_SPACEPORT_FATE_QIN_X</Type>
+			<Name>LOC_DISTRICT_SPACEPORT_FATE_QIN_X_NAME</Name>
+			<Description>LOC_DISTRICT_SPACEPORT_FATE_QIN_X_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_SPACEPORT_FATE_QIN_X</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		-->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FATE_QIN</CivilizationType>
+			<LeaderType>LEADER_FATE_QIN</LeaderType>
+			<Type>DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X</Type>
+			<Name>LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_NAME</Name>
+			<Description>LOC_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FATE_QIN</CivilizationType>
+			<LeaderType>LEADER_FATE_QIN</LeaderType>
+			<Type>UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK</Type>
+			<Name>LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_NAME</Name>
+			<Description>LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+
+
+	</PlayerItems>
+
+</GameData>

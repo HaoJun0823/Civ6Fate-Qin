@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_CIVILIZATION_FATE_QIN_MOD_NAME</Name>
+    <Guid>1a600e8b-2860-4d46-8bb0-00810c93a722</Guid>
+    <ProjectGuid>c7473663-f2a2-40a9-842f-f29877591b0d</ProjectGuid>
+    <ModVersion>16</ModVersion>
+    <Teaser>LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_TEASER</Teaser>
+    <Description>LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_DESCRIPTION</Description>
+    <Authors>LOC_CIVILIZATION_FATE_QIN_MOD_AUTHOR</Authors>
+    <SpecialThanks>LOC_CIVILIZATION_FATE_QIN_MOD_SPECIAL_THANKS</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Fate Grand Order - First Emperor</AssemblyName>
+    <RootNamespace>Fate Grand Order - First Emperor</RootNamespace>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_FATE_QIN,Players:Expansion1_Players::LEADER_FATE_QIN,Players:Expansion2_Players::LEADER_FATE_QIN</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_FATE_QIN</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_FATE_QIN</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="FateQinData"><Criteria>LeaderCriteria</Criteria><File>InGame/Fate_Qin_Leader.xml</File><File>InGame/Fate_Qin_Civilization.xml</File><File>Resource/Fate_Qin_UI.xml</File><File>InGame/Fate_Qin_Civilization_Traits.xml</File><File>InGame/Fate_Qin_Leader_Agenda.xml</File><File>InGame/Fate_Qin_Leader_AI.xml</File><File>InGame/Fate_Qin_Leader_Traits.xml</File><File>InGame/Fate_Qin_Religions.xml</File><File>InGame/Fate_Qin_Districts.xml</File><File>InGame/Fate_Qin_Leader_Units.xml</File><File>InGame/Fate_Qin_Leader_Objects.xml</File><File>InGame/Fate_Qin_Data_0.sql</File></UpdateDatabase><UpdateArt id="FateQinArt"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="FateQinIcons"><Criteria>LeaderCriteria</Criteria><File>Resource/Fate_Qin_Icons.xml</File></UpdateIcons><UpdateText id="FateQinText"><Criteria>LeaderCriteria</Criteria><File>Localization/Fate_Qin_loc_pre.xml</File><File>Localization/Fate_Qin_loc_ingame.xml</File><File>Localization/Fate_Qin_loc_Object.xml</File></UpdateText><UpdateLogitechARX id="FateQinARX"><Criteria>LeaderCriteria</Criteria><File>Data/ARX/Civ_LEADER_FATE_QIN.png</File></UpdateLogitechARX><UpdateDatabase id="FateQinDataEP1"><Properties><LoadOrder>100</LoadOrder></Properties><Criteria>LeaderCriteria_Expansion1</Criteria><File>InGame/Fate_Qin_Leader_AI_EP1.xml</File><File>PreGame/Fate_Qin_Config_EP1.xml</File><File>InGame/Fate_Qin_Data_1.sql</File></UpdateDatabase><UpdateAudio id="FateQinAudio"><Criteria>LeaderCriteria</Criteria><File>Platforms/MacOS/audio/Fate_Qin_Bank.ini</File><File>Platforms/MacOS/audio/Fate_Qin_Music_Bank.bnk</File><File>Platforms/MacOS/audio/Fate_Qin_Music_Bank.txt</File><File>Platforms/Windows/audio/Fate_Qin_Bank.ini</File><File>Platforms/Windows/audio/Fate_Qin_Music_Bank.bnk</File><File>Platforms/Windows/audio/Fate_Qin_Music_Bank.txt</File></UpdateAudio><AddGameplayScripts id="FateQinLua"><Criteria>LeaderCriteria</Criteria><File>Lua/Leader_Fate_Qin.lua</File></AddGameplayScripts><AddUserInterfaces id="FateQinUI"><Properties><Context>InGame</Context></Properties><Criteria>LeaderCriteria</Criteria><File>InGame/Fate_Qin_Music.xml</File></AddUserInterfaces><ImportFiles id="FateQinFiles"><Criteria>LeaderCriteria</Criteria><File>InGame/Fate_Qin_Music.xml</File><File>InGame/Fate_Qin_Music.lua</File></ImportFiles><UpdateDatabase id="FateQinDataEP2"><Properties><LoadOrder>200</LoadOrder></Properties><Criteria>LeaderCriteria_Expansion2</Criteria><File>InGame/Fate_Qin_Data_EP2.xml</File><File>InGame/Fate_Qin_Data_2.sql</File></UpdateDatabase><UpdateColors id="FateQinColors"><File>Resource/Fate_Qin_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="FateQinPreData"><File>PreGame/Fate_Qin_Config.xml</File><File>PreGame/Fate_Qin_Config_EP1.xml</File><File>PreGame/Fate_Qin_Config_EP2.xml</File></UpdateDatabase><UpdateArt id="FateQinPreArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="FateQinPreIcons"><File>Resource/Fate_Qin_Icons.xml</File></UpdateIcons><UpdateText id="FateQinPreText"><File>Localization/Fate_Qin_loc_mod_desc.xml</File><File>Localization/Fate_Qin_loc_pre.xml</File><File>Localization/Fate_Qin_loc_Object.xml</File></UpdateText><UpdateColors id="FateQinColors"><File>Resource/Fate_Qin_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Data\ARX" />
+    <Folder Include="InGame" />
+    <Folder Include="Lua" />
+    <Folder Include="Localization" />
+    <Folder Include="Platforms\" />
+    <Folder Include="Platforms\MacOS\" />
+    <Folder Include="Platforms\MacOS\audio\" />
+    <Folder Include="Platforms\Windows\" />
+    <Folder Include="Platforms\Windows\audio\" />
+    <Folder Include="Resource" />
+    <Folder Include="PreGame" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\ARX\Civ_LEADER_FATE_QIN.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Civilization_Traits.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Data_0.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Data_1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Data_2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Data_EP1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Data_EP2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader_Agenda.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader_AI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader_AI_EP1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader_Objects.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader_Traits.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Leader_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Music.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Music.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Fate_Qin_Religions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Fate_Qin_loc_ingame.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Fate_Qin_loc_mod_desc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Fate_Qin_loc_Object.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Fate_Qin_loc_pre.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Leader_Fate_Qin.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\1059277340.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\30107572.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\305971875.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\357750459.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\413464309.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\422161921.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\476412752.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\522838256.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\545340867.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\569314132.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\596189159.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\606433905.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\61005679.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\646052855.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\665546969.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\674755076.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\701085453.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\759605599.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\790056355.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\841352617.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\894199412.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\923404284.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\95366827.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\Fate_Qin_Bank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\Fate_Qin_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\MacOS\audio\Fate_Qin_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\1059277340.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\30107572.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\305971875.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\357750459.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\413464309.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\422161921.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\476412752.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\522838256.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\545340867.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\569314132.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\596189159.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\606433905.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\61005679.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\646052855.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\665546969.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\674755076.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\701085453.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\759605599.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\790056355.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\841352617.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\894199412.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\923404284.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\95366827.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\Fate_Qin_Bank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\Fate_Qin_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\Fate_Qin_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PreGame\Fate_Qin_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PreGame\Fate_Qin_Config_EP1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PreGame\Fate_Qin_Config_EP2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resource\Fate_Qin_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resource\Fate_Qin_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resource\Fate_Qin_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

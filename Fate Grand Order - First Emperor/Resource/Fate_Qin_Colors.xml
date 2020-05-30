@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Colors -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 9/4/2019 9:39:23 AM -->
+<GameData>
+
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_FATE_QIN_PRIMARY</Type>
+			<Color>0,0,0,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_FATE_QIN_SECONDARY</Type>
+			<Color>44,142,143,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_FATE_QIN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_FATE_QIN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_FATE_QIN_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_FATE_QIN_SECONDARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_PLAYER_LEADER_FATE_QIN_PRIMARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_RED_MD</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_ORANGE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_ORANGE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_RED_MD</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+	
+</GameData>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Civilization -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:05:19 PM -->
+<GameData>
+
+	<Types>
+		
+		<Row Type="CIVILIZATION_FATE_QIN" Kind="KIND_CIVILIZATION"/>
+
+	</Types>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" Name="LOC_CIVILIZATION_FATE_QIN_NAME" Description="LOC_CIVILIZATION_FATE_QIN_DESCRIPTION" Adjective="LOC_CIVILIZATION_FATE_QIN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_ASIAN" />
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" LeaderType="LEADER_FATE_QIN" CapitalName="LOC_CITY_NAME_XIAN"/>
+	</CivilizationLeaders>
+
+	<CivilizationInfo>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_CHINA_LOCATION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_CHINA_SIZE" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_CHINA_POPULATION" SortIndex="30" />
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_CHINA_CAPITAL" SortIndex="40" />
+		
+		
+	</CivilizationInfo>
+
+	<CityNames>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_XIAN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_BEIJING"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_TAIYUAN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_CHENGDU"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_JIAODONG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_CHANGSHA"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_LONGXI"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_GUANGZHOU"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_HANDAN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_SHENYANG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_SHANGHAI"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_WUHAN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_YIYANG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_XIURONG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_CHEN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_XINGZHOU"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_QUXIAN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_NANJING"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_LANGFANG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_LINZI"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_JIUJIANG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_KAIFENG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_XUZHOU"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_HEFEI"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_XINZHENG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_LUAN"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_QUFU"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_JIANGZHOU"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_LUOYANG"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" CityName="LOC_CITY_NAME_YINGCHUAN"/>
+		
+	</CityNames>
+
+	<StartBiasResources>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" ResourceType="RESOURCE_TEA" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" ResourceType="RESOURCE_MERCURY" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" ResourceType="RESOURCE_JADE" Tier="5"/>
+		
+	</StartBiasResources>
+
+	<StartBiasFeatures>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" FeatureType="FEATURE_FLOODPLAINS" Tier="5"/>
+		
+	</StartBiasFeatures>
+
+	<StartPosition>
+
+		<Row MapName="GiantEarth" Civilization="CIVILIZATION_FATE_QIN"		X="78" Y="60" />
+		
+	</StartPosition>
+	
+</GameData>

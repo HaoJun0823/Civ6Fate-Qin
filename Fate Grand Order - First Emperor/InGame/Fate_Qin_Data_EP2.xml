@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Data_EP2 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 2019/2/15 7:23:24 -->
+<GameData>
+
+	<TraitModifiers>
+
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_CANAL_UNLOCK_MASONRY"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_CANAL_UNLOCK_SPACEPORT"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_CANAL_UNLOCK_AERODROME"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_CANAL_UNLOCK_COMMERCIAL_HUB"/>
+		<Row TraitType="FATE_QIN_FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_CANAL_UNLOCK_AQUEDUCT"/>
+
+	</TraitModifiers>
+	<Districts_XP2>
+
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X" AttackRange="6" />
+
+	</Districts_XP2>
+
+
+	<Modifiers>
+
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_SPACEPORT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_UNLOCK</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_AERODROME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_UNLOCK</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_AQUEDUCT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_UNLOCK</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_COMMERCIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_UNLOCK</ModifierType>
+		</Row>
+		
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_SPACEPORT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_SPACEPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_SPACEPORT</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MINING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_AERODROME</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_AERODROME</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ENGINEERING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_COMMERCIAL_HUB</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_COMMERCIAL_HUB</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ANIMAL_HUSBANDRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_AQUEDUCT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_AQUEDUCT</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_IRRIGATION</Value>
+		</Row>
+
+		<Update>
+			<Set Value="ERA_FUTURE" />
+			<Where ModifierId="TRAIT_FATE_QIN_WONDER_PERCENT" Name="EndEra"/>
+		</Update>
+
+
+	</ModifierArguments>
+
+
+	<Improvement_YieldChanges>
+
+		<Update>
+			<Set YieldChange="3"/>
+			<Where ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL"/>
+		</Update>
+		
+		
+		
+	</Improvement_YieldChanges>
+
+	<Adjacency_YieldChanges>
+
+		<Update>
+			<Set YieldChange="3"/>
+			<Where AdjacentImprovement="IMPROVEMENT_FATE_QIN_GREAT_WALL"/>
+		</Update>
+		
+	</Adjacency_YieldChanges>
+
+	<DistrictModifiers>
+
+		<Row>
+			<DistrictType>DISTRICT_INDUSTRIAL_ZONE_FATE_QIN_X</DistrictType>
+			<ModifierId>REINFORCED_INFRASTRUCTURE_PREVENET_STRUCTURAL_DAMAGE</ModifierId>
+		</Row>
+		
+		
+	</DistrictModifiers>
+
+</GameData>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Civilization_Traits -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/8/2018 12:13:17 PM -->
+<GameData>
+
+	<Types>
+
+		<Row Type="TRAIT_CIVILIZATION_QIN_DESC" Kind="KIND_TRAIT"/>
+
+		<!--
+		<Row Type="TRAIT_CIVILIZATION_QIN_DISTRICTS_S" Kind="KIND_TRAIT"/>
+		-->
+		<Row Type="TRAIT_CIVILIZATION_QIN_DISTRICTS_I" Kind="KIND_TRAIT"/>
+
+		<Row Type="TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_QIN_IMPROVEMENT_GREAT_WALL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_QIN_UNIT_CHINESE_CROUCHING_TIGER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_QIN_UNIT_THE_MORE_THE_BETTER_TANK" Kind="KIND_TRAIT"/>
+
+	</Types>
+
+	
+	<CivilizationTraits>
+
+
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_IMPROVEMENT_GREAT_WALL"/>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_UNIT_CHINESE_CROUCHING_TIGER"/>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_UNIT_THE_MORE_THE_BETTER_TANK"/>
+
+		<!--
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_DISTRICTS_S" />
+		-->
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_DISTRICTS_I" />
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_DESC"/>
+
+		<Row CivilizationType="CIVILIZATION_FATE_QIN" TraitType="TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE"/>
+		
+		
+	</CivilizationTraits>
+
+
+	<Traits>
+
+		
+
+		<!--
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_DISTRICTS_S" Name="LOC_DISTRICT_SPACEPORT_NAME"/>
+		-->
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_DISTRICTS_I" Name="LOC_DISTRICT_INDUSTRIAL_ZONE_NAME" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_IMPROVEMENT_GREAT_WALL" Name="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME"  Description="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_UNIT_CHINESE_CROUCHING_TIGER" Name="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_NAME" Description="LOC_UNIT_FATE_QIN_CHINESE_CROUCHING_TIGER_DESCRIPTION"/>
+		
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_UNIT_THE_MORE_THE_BETTER_TANK" Name="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_NAME" Description="LOC_UNIT_FATE_QIN_THE_MORE_THE_BETTER_TANK_DESCRIPTION" />
+		
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE" Name="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_NAME" Description="LOC_TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE_DESCRIPTION"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_QIN_DESC" Name="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_NAME" Description="LOC_TRAIT_CIVILIZATION_FATE_QIN_ABILITY_DESCRPTION"/>
+		
+	</Traits>
+
+	<TraitModifiers>
+
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_QIN_CIVIC_BOOST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_QIN_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_QIN_TECHNOLOGY_BOOST</ModifierId>
+		</Row>
+		
+		
+	</TraitModifiers>
+
+	<Modifiers>
+
+		<Row>
+			<ModifierId>TRAIT_QIN_CIVIC_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_QIN_TECHNOLOGY_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>TRAIT_QIN_CIVIC_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_QIN_TECHNOLOGY_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+			<Extra>-1</Extra>
+		</Row>
+		
+		
+	</ModifierArguments>
+	
+	
+	
+	
+</GameData>

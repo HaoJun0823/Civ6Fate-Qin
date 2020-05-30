@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_TemplateName text="DynamicGeo"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="WallSet"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="FGO_GREAT_WALL"/>
+							<m_ParamName text="Gameplay Name"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="Ordering"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Era Art Set"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>5.000000</m_fValue>
+										<m_ParamName text="Unit Length"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="FgoGreatWall"/>
+										<m_RootCollectionName text="TowerSet"/>
+										<m_ArtDefPath text="Walls.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="DynamicGeo"/>
+										<m_ParamName text="Tower Set"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Era"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Wall Pieces"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FGO_Great_halfwall_Decal_PIL"/>
+													<m_XLPClass text="DynamicGeometry"/>
+													<m_XLPPath text="FgoWalls.xlp"/>
+													<m_BLPPackage text="FgoWalls"/>
+													<m_LibraryName text="DynamicGeometry"/>
+													<m_ParamName text="Asset"/>
+												</Element>
+												<Element class="AssetObjects..IntValue">
+													<m_nValue>1</m_nValue>
+													<m_ParamName text="Unit Length"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Wall Pieces002"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FGO_Great_Wall_Decal_wall"/>
+													<m_XLPClass text="DynamicGeometry"/>
+													<m_XLPPath text="FgoWalls.xlp"/>
+													<m_BLPPackage text="FgoWalls"/>
+													<m_LibraryName text="DynamicGeometry"/>
+													<m_ParamName text="Asset"/>
+												</Element>
+												<Element class="AssetObjects..IntValue">
+													<m_nValue>2</m_nValue>
+													<m_ParamName text="Unit Length"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Wall Pieces001"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+								<Element>
+									<m_CollectionName text="Gate"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FGO_Great_Wall_Decal"/>
+													<m_XLPClass text="DynamicGeometry"/>
+													<m_XLPPath text="FgoWalls.xlp"/>
+													<m_BLPPackage text="FgoWalls"/>
+													<m_LibraryName text="DynamicGeometry"/>
+													<m_ParamName text="Asset"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>7.000000</m_fValue>
+													<m_ParamName text="Opening Width"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Gate"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Era Art Set001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="FgoGreatWallSet"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="TowerSet"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Pieces"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FGO_Great_Wall_tower_PIL_Decal"/>
+										<m_XLPClass text="DynamicGeometry"/>
+										<m_XLPPath text="FgoWalls.xlp"/>
+										<m_BLPPackage text="FgoWalls"/>
+										<m_LibraryName text="DynamicGeometry"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Tower"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Tower"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FGO_Great_Wall_end"/>
+										<m_XLPClass text="DynamicGeometry"/>
+										<m_XLPPath text="FgoWalls.xlp"/>
+										<m_BLPPackage text="FgoWalls"/>
+										<m_LibraryName text="DynamicGeometry"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="CoastalTower"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Endpiece"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FGO_Decal_ANC_Great_wall1"/>
+										<m_XLPClass text="DynamicGeometry"/>
+										<m_XLPPath text="FgoWalls.xlp"/>
+										<m_BLPPackage text="FgoWalls"/>
+										<m_LibraryName text="DynamicGeometry"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="BuildingTower"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BuildingTower"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="FgoGreatWall"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+
