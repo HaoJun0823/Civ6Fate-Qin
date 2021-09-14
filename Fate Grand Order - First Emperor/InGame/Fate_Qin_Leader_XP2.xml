@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fate_Qin_Leader_XP2 -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 9/7/2021 6:35:22 PM -->
+<GameData>
+	<Improvements_XP2>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" BuildOnAdjacentPlot="true" DisasterResistant="true"/>
+	</Improvements_XP2>
+	<!--<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>-->
+</GameData>

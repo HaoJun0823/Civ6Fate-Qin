@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="CrouchingTigerArmor_a"/>
+				<m_ObjectName text="Brick_A_B"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>
@@ -40,13 +40,27 @@
 				<m_bValue>false</m_bValue>
 				<m_ParamName text="Translucency"/>
 			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Emissive"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="Emissive_Minimum_Weight"/>
+			</Element>
+			<Element class="AssetObjects..Coord2DValue">
+				<m_x>0.000000</m_x>
+				<m_y>0.000000</m_y>
+				<m_ParamName text="UV_ScrollRate"/>
+			</Element>
 		</m_Values>
 	</m_CookParams>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_ClassName text="Unit"/>
 	<m_DataFiles/>
@@ -55,6 +69,5 @@
 	<m_Tags>
 		<Element text="Unit"/>
 	</m_Tags>
-	<m_Groups/>
 </AssetObjects..MaterialInstance>
 

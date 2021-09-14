@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..ArtDefSet>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_TemplateName text="Districts"/>
 	<m_RootCollections>
@@ -18,6 +18,10 @@
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="CanAffectBuildings"/>
 						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanConnectToCanals"/>
+						</Element>
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections>
@@ -28,7 +32,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DISTRICT_INDUSTRIAL_ZONE"/>
+										<m_ElementName text="QIN_ZONE"/>
 										<m_RootCollectionName text="Districts"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -41,23 +45,6 @@
 							<m_Name text="Landmark1"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DISTRICT_SPACEPORT"/>
-										<m_RootCollectionName text="Districts"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Xref"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Landmark2"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="StrategicView"/>
@@ -66,10 +53,10 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Industrial"/>
+										<m_ElementName text="CommercialHub"/>
 										<m_RootCollectionName text="Districts"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -91,7 +78,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Industrial_Pillaged"/>
+										<m_ElementName text="CommercialHub_Pillaged"/>
 										<m_RootCollectionName text="Districts"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -116,7 +103,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Industrial_UnderConstruction"/>
+										<m_ElementName text="CommercialHub_UnderConstruction"/>
 										<m_RootCollectionName text="Districts"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -135,81 +122,6 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="StrategicView003"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Spaceport_UnderConstruction"/>
-										<m_RootCollectionName text="Districts"/>
-										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="StrategicView"/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="UnderConstruction"/>
-										<m_RootCollectionName text="BuildStates"/>
-										<m_ArtDefPath text="Districts.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Districts"/>
-										<m_ParamName text="State"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="StrategicView006"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Spaceport"/>
-										<m_RootCollectionName text="Districts"/>
-										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="StrategicView"/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Completed"/>
-										<m_RootCollectionName text="BuildStates"/>
-										<m_ArtDefPath text="Districts.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Districts"/>
-										<m_ParamName text="State"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="StrategicView004"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Spaceport_Pillaged"/>
-										<m_RootCollectionName text="Districts"/>
-										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="StrategicView"/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Pillaged"/>
-										<m_RootCollectionName text="BuildStates"/>
-										<m_ArtDefPath text="Districts.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Districts"/>
-										<m_ParamName text="State"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="StrategicView005"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>

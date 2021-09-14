@@ -9,7 +9,7 @@
 
 	<Improvements>
 
-	<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" Name="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME" Description="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_GREAT_WALL" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_MASONRY" TraitType="TRAIT_CIVILIZATION_QIN_IMPROVEMENT_GREAT_WALL" BuildInLine="true" BuildOnFrontier="true" DefenseModifier="8" GrantFortification="2" Housing="2" TilesRequired="2" />
+	<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" Name="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_NAME" Description="LOC_IMPROVEMENT_FATE_QIN_GREAT_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_GREAT_WALL" PlunderType="PLUNDER_GOLD" PlunderAmount="0" Buildable="true" PrereqTech="TECH_MASONRY" TraitType="TRAIT_CIVILIZATION_QIN_IMPROVEMENT_GREAT_WALL" BuildInLine="true" BuildOnFrontier="false" DefenseModifier="8" GrantFortification="2" Housing="2" TilesRequired="2" />
 	
 	</Improvements>
 	<Improvement_Adjacencies>
@@ -33,17 +33,26 @@
 	</Improvement_Adjacencies>
 	<Improvement_ValidTerrains>
 
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT"/>
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA"/>
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS"/>
 		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS"/>
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW"/>
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT_HILLS"/>
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
-		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS_HILLS"/>
 		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW"/>
 		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW_HILLS"/>
 		
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_OCEAN"/>
+
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+
 		<!--
 		
 		<Row ImprovementType="IMPROVEMENT_FATE_QIN_GREAT_WALL" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
